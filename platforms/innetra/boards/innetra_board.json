@@ -1,0 +1,33 @@
+{
+  "build": {
+    "f_cpu": "320000000L",
+    "hwids": [
+      [
+        "0x0403",
+        "0x6011"
+      ]
+    ],
+    "mabi": "ilp32",
+    "march": "rv32imac",
+    "mcmodel": "medlow",
+    "mcu": "fe310"
+  },
+  "debug": {
+    "jlink_device": "FE310",
+    "onboard_tools": [
+      "ftdi"
+    ]
+  },
+  "frameworks": ["talamo","spine","combine"],
+  "name": "innetra",
+  "upload": {
+    "maximum_ram_size": 16384,
+    "maximum_size": 16777216,
+    "protocols": [
+      "ftdi"
+    ],
+    "protocol": "ftdi"
+  },
+  "url": "https://www.sifive.com/boards/hifive1-rev-b - innetra",
+  "vendor": "SiFive-Innetra"
+}

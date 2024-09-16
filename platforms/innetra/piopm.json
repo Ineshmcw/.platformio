@@ -1,0 +1,12 @@
+{
+  "type": "platform",
+  "name": "innetra",
+  "version": "1.0.0",
+  "spec": {
+    "owner": "mcw",
+    "id": 10001,  // Ensure this ID is unique
+    "name": "innetra",
+    "requirements": null,
+    "uri": null
+  }
+}

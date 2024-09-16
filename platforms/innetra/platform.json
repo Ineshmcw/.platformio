@@ -1,0 +1,36 @@
+{
+  "name": "innetra",
+  "title": "Innetra Custom Platform",
+  "description": "Custom platform for Innetra projects",
+  "version": "1.0.0",
+  "homepage": "https://innetra",
+  "frameworks": {
+    "spine": {
+      "script": "builder/frameworks/custom.py"
+    },
+    "talamo": {
+      "script": "builder/frameworks/python.py"
+    },
+    "combine": {
+      "script":"builder/frameworks/combine.py"
+    }
+  },
+  "boards": {
+    "innetra_board": "boards/innetra_board.json"
+  },
+  "packages": {
+    "framework-innetra": {
+        "type": "framework",
+        "owner": "Innetra"
+      },
+    "toolchain-spine": {
+      "type": "toolchain",
+      "owner": "Innetra"
+    },
+    "talamo":{
+      "type": "framework",
+      "owner": "Innetra"
+    }
+  }
+
+}
